@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+
+\usepackage{erc}
+\usepackage{multirow}
+
+\input{common}
+
+\begin{document}
+
+\lhead{\emph{\surname}}
+\chead{Part B2}
+\rhead{\project}
+\cfoot{\thepage}
+
+\newcommand{\note}[1]{{\color{red}\it #1}}
+%\newcommand{\note}[1]{}
+
+\begin{center}
+  \vbox{\vspace{1.5cm}}
+  \Large{\textbf{%
+      ERC Starting Grant 2016\\
+      Research proposal [Part B2]\\}
+  }
+  \vspace{1cm}
+\end{center}
+
+\note{15 pages\\
+  Description of the scientific and technical aspects of the project,
+  demonstrating the ground-breaking nature of the research, its potential
+  impact and research methodology. The proposal will also need to clearly
+  specify the percentage of the applicant's total working time that will be
+  spent in the EU or an Associated Country and the percentage of the
+  applicant’s total working time that will be devoted to the project, as well
+  as a full estimation of the real project cost.
+}
+
+\tableofcontents
+
+\include{sota}
+\include{method}
+\include{resources}
+\appendix
+\include{ethics}
+
+\bibliographystyle{plainnat}
+%\bibliography{}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t
+%%% End:

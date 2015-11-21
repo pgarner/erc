@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+
+\usepackage{erc}
+\usepackage[table]{xcolor}
+
+\input{common}
+
+\begin{document}
+
+\lhead{\emph{\surname}}
+\chead{Part B1}
+\rhead{\project}
+\cfoot{\thepage}
+
+\newcommand{\note}[1]{{\color{red}\it #1}}
+%\newcommand{\note}[1]{}
+
+\input{cover}
+
+\include{synopsis}
+\include{cv}
+\include{record}
+
+\bibliographystyle{plainnat}
+%\bibliography{}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t
+%%% End:
